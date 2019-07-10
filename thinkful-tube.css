@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap');
+
+*{
+	color: #282828;
+	font-family: Roboto;
+}
+
+h1, h2, .red{
+	font-family: Oswald;
+}
+h1{
+	cursor: default;
+}
+.red{
+	color: white;
+	border: 3px solid #FF0000;
+	border-radius: 17px;
+	background-color: #FF0000;
+	transition-duration: 0.2s;
+}
+.red:hover{
+	border: 5px solid #FF0000;
+	border-radius: 17px;
+}
+
+button:focus{
+	outline: 0;
+}
+
+.search{
+	border-radius: 4px;
+}
+
+li{
+	list-style: none;
+}
+
+.hidden{
+	display: none;
+}
+
+.title{
+	vertical-align: top;
+}
